@@ -1,0 +1,30 @@
+```{r}
+#to run the R cell use ctrl+shit+enter
+
+#to insert a new cell use ctrl+alt+i
+```
+
+```{r}
+auction.data<-read.csv("D:\\ACADEMICS\\SEM 3\\DV\\2019 elections\\Consit2019.csv")
+ # before of reading CSV set your working dir
+
+# working dir can be set through session->set working dir->choose file 
+```
+```{r}
+auction.data
+```
+```{r}
+head(auction.data)
+
+#head is used to read first 5 values
+```
+```{r}
+View(auction.data)
+
+#opens the data in the tabular format
+```
+```{r}
+x<-(auction.data$Const..No.==31)
+print(x)
+```
+
