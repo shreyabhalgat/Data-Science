@@ -1,0 +1,43 @@
+```{r}
+# vectors are the most basic R data object
+
+#there are six types of atomic Vectors
+
+# logical integer double Complex character and raw
+```
+```{r}
+# Vector Creation
+#when you write just one value in R, it becomes a vector of length 1 and belongs to one of the above vector types.
+# Atomic vector of type character.
+print("abc");
+
+# Atomic vector of type double.
+print(12.5)
+
+# Atomic vector of type integer.
+print(63L)
+
+# Atomic vector of type logical.
+print(TRUE)
+
+# Atomic vector of type complex.
+print(2+3i)
+
+# Atomic vector of type raw.
+print(charToRaw('hello'))
+
+```
+```{r}
+#multiple Elements in vector
+#1.using a colon Operator with numeric data
+
+# Creating a sequence from 5 to 13.
+v <- 5:13
+print(v)
+
+```
+```{r}
+# Create vector with elements from 5 to 9 incrementing by 0.4.
+print(seq(5, 9, by = 0.4))
+```
+

@@ -1,0 +1,20 @@
+```{r}
+#R use print() function to display the values
+x<-10
+print(10)
+```
+```{r}
+# R uses the paste() and paste0() functions to format strings and varibles together for printing in a few different ways
+
+print(paste('hello','world'))
+
+print(paste('hello','world',sep='-'))
+
+```
+```{r}
+paste0('hello','world')
+```
+```{r}
+
+```
+
