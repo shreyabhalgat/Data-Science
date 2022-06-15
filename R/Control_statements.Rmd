@@ -1,0 +1,17 @@
+```{r}
+x<-5
+if(x>=0)
+{
+  print("positive")
+}else
+{
+  print("negative")
+}
+```
+```{r}
+#ifelse() function in R
+
+x<-5
+ifelse(x>=0,"positive","negative")
+```
+

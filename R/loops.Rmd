@@ -1,0 +1,38 @@
+```{r}
+#For Loops
+
+for(i in 1:5)
+{
+  print(i)
+}
+```
+```{r}
+x<-1:10
+for(i in x)
+{
+  print(i)
+}
+```
+```{r}
+#while Loop
+x<-10
+while (x>0) {
+  print(x)
+  x<-x-1
+}
+```
+```{r}
+#repeat loops
+i <-1;
+repeat{
+  print(i)
+  if(i>5)
+    break
+  i<-i+1
+}
+
+```
+```{r}
+#break next statement
+```
+
