@@ -1,0 +1,23 @@
+```{r}
+#Replication Fucntionnn
+
+#takes two argument 1.value to be replicate 2.no of time to be replicate
+
+```
+```{r}
+x<-rep(1,times=5)
+x
+```
+```{r}
+
+#replication of sequence
+x<-1:3
+y<-rep(x,times=5)
+#times argument replicates elements end to end
+y
+
+z<-rep(x,each=5)
+z
+```
+
+
