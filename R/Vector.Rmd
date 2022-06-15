@@ -4,6 +4,10 @@
 #there are six types of atomic Vectors
 
 # logical integer double Complex character and raw
+
+#empty vectors can be created with using vector() function
+
+#a vector is a sequence of data elements of the same basic type
 ```
 ```{r}
 # Vector Creation
@@ -39,5 +43,22 @@ print(v)
 ```{r}
 # Create vector with elements from 5 to 9 incrementing by 0.4.
 print(seq(5, 9, by = 0.4))
+```
+```{r}
+#declaring a vector with a c() fucntion
+
+v1<-c(1,2,3,4,5)
+print(v1)
+class(v1)
+```
+```{r}
+x<-c(TRUE,FALSE)
+print(x)
+
+
+
+```
+```{r}
+
 ```
 
