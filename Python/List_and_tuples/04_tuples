@@ -1,0 +1,8 @@
+t=(1,2,3,4)
+print(t[0])
+
+#tuples are immutable
+#i.e you cannot update the value of tuple
+
+#rest all operstions are same as list
+#except changing operations like append

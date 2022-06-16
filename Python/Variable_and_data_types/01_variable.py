@@ -11,3 +11,5 @@ c=35.42
 4.Booleans
 5.None
 '''
+
+print(type(a))
