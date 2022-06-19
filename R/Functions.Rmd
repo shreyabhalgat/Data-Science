@@ -1,0 +1,23 @@
+```{r}
+#Functions
+#function is a block of code or a piece of code 
+#Runs only when it is called
+
+```
+```{r}
+# structure of function
+
+# function name = function(paramter)
+#{
+  #//statement
+#}
+
+sum=function(a,b){
+  c=a+b
+  return(c)
+}
+
+sum(3,5)
+```
+
+

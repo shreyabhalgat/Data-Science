@@ -1,0 +1,14 @@
+```{r}
+myeval=function(x,y){
+  w=x+y
+  z=x*y
+  
+#store result in the list if you want to return the multiple values
+  result=list('sum'=w,'mul'=z)
+  return(result)
+}
+
+myeval(2,5)
+
+```
+

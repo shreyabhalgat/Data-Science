@@ -1,0 +1,20 @@
+```{r}
+#inline functions
+#lambda functions
+
+```
+
+```{r}
+#have same syntax , we do not use curly braces , we cannot return the multiple statements
+
+mysum=function(x,y) x+y  #inline fucntion
+
+myexp=function(x) x^3
+
+```
+```{r}
+mysum(2,4)
+myexp(3)
+```
+
+
